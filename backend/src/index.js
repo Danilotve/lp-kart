@@ -11,7 +11,7 @@ const SensorTempUmidRoutes = require('./routes/SensorTempUmidRoutes');
 server.use('/sensor', SensorTempUmidRoutes);
 
 server.listen(3000, () => {
-    console.log('API ONLINE Porta: 3333');
+    console.log('API ONLINE Porta: 3000');
 });
 
 
