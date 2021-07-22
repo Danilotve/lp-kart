@@ -35,8 +35,8 @@ class TaskController {
               .catch(error => {
                 return res.status(500).json(error);
               });
+              
       }
-
 
      async all1(req, res){
         await TaskModel.find()
